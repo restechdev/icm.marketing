@@ -4480,6 +4480,10 @@ label {
   margin-top: 25px;
 }
 
+.footer_logo{
+  max-width: 60% !important;
+}
+
 @media screen and (max-width: 1199px) {
   .cs-newsletter.cs-style1 .cs-newsletter_btn {
     padding: 7px 15px;

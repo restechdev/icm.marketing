@@ -33,6 +33,7 @@
   | 20. Parallax Swiper Slider
   | 21. Dynamic contact form
   | 22. Cursor Animation
+  | 23. Current Year
   |
   */
 
@@ -835,3 +836,6 @@
   }
   document.addEventListener('mousemove', cursorMovingAnimation);
 })(jQuery); // End of use strict
+
+//Current Year
+document.getElementById('currentYear').textContent = new Date().getFullYear();
